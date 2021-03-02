@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ngajiku">
+
+    <uses-sdk
+        android:targetSdkVersion="29"
+        android:maxSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_ngajiyuk"
+        android:label="NgajiYuk"
+        android:roundIcon="@drawable/icon_ngajiyuk"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity
+            android:name=".IkhfaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IqlabActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IzharActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IdghamActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TajwidActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HijaiyyahActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MulaiActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".splashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
